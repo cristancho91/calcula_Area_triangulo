@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    
+
+}
+
+button{
+    color: #fff;
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5 ease;
+}
+button:hover{
+    background-color: forestgreen;
+}
+
+#resultado{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    display: none;
+}
